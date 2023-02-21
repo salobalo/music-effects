@@ -107,13 +107,11 @@ h2 a{
 
 .music-surati {
   width: 100%;
-  height: 65px;
+  height: 90px;
   background-image: url(../img/sound\ 1.png);
   background-size: 25%;
   background-repeat: repeat-x;
-  margin-top: 57px;
-  background-position: center;
-}
+  margin-top: 57px;}
 h3 {
   margin-top: 24px;
   margin-bottom: 12px;
@@ -220,4 +218,59 @@ footer {
  .rights{
   margin-top: 50px;
 }
+
+
+
+/* ------------------PLAYLISTS PAGE STYLES*/
+
+.playlists{
+  width: 90%;
+  /* background-color: blue; */
+  justify-content: flex-start;
+  margin: 0 auto;
+
+}
+.playlist1 a{
+  color: #000000
+}
+
+.playlist1 ul li .time{
+  margin-left: 20px;
+}
+
+.playlist1 ul li{
+  margin-left: 10%;
+  margin-left: 10px;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.playlist2{
+  margin-left: 160px;
+}
+
+
+.playlist-photo{
+    /* background-color: burlywood; */
+    width: 20%;
+    margin: 0 auto;
+}
+
+.playlist-meore{
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.thanks{
+  font-size: 36px;
+  text-align: center;
+  margin: 107px 0 140px 0;
+}
+
+
+
+
+
+
 
