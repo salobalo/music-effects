@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -71,7 +72,7 @@ header ul a:hover:before {
   background-color: #ffffff;
 }
 
-h2 {
+.main-page h2 {
   font-size: 24px;
   margin: 50px 0 50px 0;
   margin-left: 10%;
@@ -98,6 +99,10 @@ h2 a{
   margin: 5px;
 }
 
+.music-box h3, .article-p{
+margin-left: 12px;
+}
+
 .music-box article {
   border: 1px solid #000000;
   margin-bottom: ;
@@ -111,10 +116,15 @@ h2 a{
   background-image: url(../img/sound\ 1.png);
   background-size: 25%;
   background-repeat: repeat-x;
-  margin-top: 57px;}
+  margin-top: 58px;}
+
 h3 {
   margin-top: 24px;
   margin-bottom: 12px;
+}
+
+h3 a{
+  color: #000000;
 }
 .music-box article p {
   margin-bottom: 50px;
@@ -230,6 +240,16 @@ footer {
   margin: 0 auto;
 
 }
+
+
+.playlists-page{
+  margin-top: 50px;
+  margin-left: 5%;
+}
+.playlists-page h2{
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
 .playlist1 a{
   color: #000000;
 }
@@ -268,16 +288,23 @@ footer {
   margin: 107px 0 140px 0;
 }
 
+
+.playlist1{
+transition: 0.5s;
+}
 .playlist1:hover{
   background-color: rgb(0, 0, 0, 10%);
-  box-shadow: 20px 20px 20px 20px rgb(0, 0, 0, 10%);
+  box-shadow: 0 0 20px 20px rgb(0, 0, 0, 10%);
   /* box-shadow: rgb(0, 0, 0, 10%); */
+
+}
+
+.playlists-page .music-surati{
+  margin-bottom: 30px;
 }
 
 
-.playlist1, .playlist2 h2{
-  margin-bottom: 50px;
-}
+
 
 
 
